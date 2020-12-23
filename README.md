@@ -1,4 +1,4 @@
-![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/C20_Fullerene.png/64px-C20_Fullerene.png)
+![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/C20_Fullerene.png/128px-C20_Fullerene.png)
 
 #  NanoASGI
 
