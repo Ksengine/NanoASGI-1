@@ -10,6 +10,37 @@ NanoASGI is a fast, simple and lightweight [ASGI](https://asgi.readthedocs.io "A
 Download nanoasgi.py into your project directory. There are no hard dependencies other than the Python standard library. NanoASGI runs with Python versions above 3.7.
 
 
+## Example
+# example.py
+```python
+from nanoasgi import App
+
+
+app = App()
+
+
+@app.on('startup')
+async def on_startup():
+    print('Ready to serve requests')
+
+
+@app.on('shutdown')
+async def on_shutdown():
+    print('Shutting down')
+
+
+@app.route('GET', '/api/hello/{name}/')
+async def hello_handler(request, name):
+    return Response(
+        {'result': f'Hello {name}!'},
+        status=200,
+        headers=[('Content-Type', 'application/json')],
+    )
+```
+```bash
+uvicorn example:app
+```
+
 ## License
 Code and documentation are available according to the MIT License (see [LICENSE](license)).
 
