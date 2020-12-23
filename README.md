@@ -1,9 +1,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/C20_Fullerene.png" alt="Logo" width="128" height="128">
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/df/C20_Fullerene.png" alt="Logo" width="128" height="128">
     <br />
-    <sup><sub><a href="https://commons.wikimedia.org/wiki/File:C20_Fullerene.png">Perditax</a>, CC0, via Wikimedia Commons</sup></sub>
   </a>
 
   <h1 align="center">NanoASGI</h1>
@@ -25,3 +24,5 @@
 #  NanoASGI
 
 NanoASGI is a fast, simple and lightweight ASGI micro web-framework for Python.
+
+[LOGO](#logo) - [Perditax](https://commons.wikimedia.org/wiki/File:C20_Fullerene.png), CC0, via Wikimedia Commons
